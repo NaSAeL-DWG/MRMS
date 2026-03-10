@@ -106,3 +106,8 @@ void Login::tea_login()
     s->operMenu();
 }
 
+Login::Login(Provide& pr)
+{
+    provider = &pr;
+}
+

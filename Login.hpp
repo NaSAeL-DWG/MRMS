@@ -9,5 +9,6 @@ public:
 	void stu_login();
 	void tea_login();
 	void admin_login();
-	Provide* provider;
+	Provide *provider;
+	Login(Provide& pr);
 };
