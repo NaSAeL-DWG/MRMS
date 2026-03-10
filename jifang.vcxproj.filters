@@ -13,60 +13,75 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\H-Identities">
+      <UniqueIdentifier>{db069d1c-cfc4-4261-b61d-fc39a057dbdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\H-Basics">
+      <UniqueIdentifier>{801de6c4-bb82-4835-ac28-7ddf8a001db4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\H-Processer">
+      <UniqueIdentifier>{61e6ed35-85dc-4c83-9411-9f3033e4ad85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\C-Identities">
+      <UniqueIdentifier>{f80f7abd-6bd0-463b-81c4-5489caa8b6aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\C-Processer">
+      <UniqueIdentifier>{c5bcffef-a600-49c5-ad9e-a9822a1e2f9b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Admin.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="Login.hpp">
+      <Filter>头文件\H-Processer</Filter>
     </ClCompile>
-    <ClCompile Include="Provide.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="Admin.cpp">
+      <Filter>源文件\C-Identities</Filter>
     </ClCompile>
     <ClCompile Include="Student.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\C-Identities</Filter>
     </ClCompile>
     <ClCompile Include="Teacher.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\C-Identities</Filter>
     </ClCompile>
     <ClCompile Include="Reservation.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\C-Identities</Filter>
     </ClCompile>
-    <ClCompile Include="Login.hpp">
-      <Filter>头文件</Filter>
+    <ClCompile Include="Provide.cpp">
+      <Filter>源文件\C-Processer</Filter>
     </ClCompile>
     <ClCompile Include="Login.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\C-Processer</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="pre.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="Admin.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Student.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Teacher.hpp">
-      <Filter>头文件</Filter>
+      <Filter>头文件\H-Identities</Filter>
     </ClInclude>
     <ClInclude Include="Identity.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\H-Identities</Filter>
     </ClInclude>
-    <ClInclude Include="UIUtils.hpp">
-      <Filter>头文件</Filter>
+    <ClInclude Include="Student.hpp">
+      <Filter>头文件\H-Identities</Filter>
+    </ClInclude>
+    <ClInclude Include="Teacher.hpp">
+      <Filter>头文件\H-Identities</Filter>
+    </ClInclude>
+    <ClInclude Include="pre.h">
+      <Filter>头文件\H-Basics</Filter>
     </ClInclude>
     <ClInclude Include="Classes.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\H-Basics</Filter>
     </ClInclude>
-    <ClInclude Include="Reservation.hpp">
-      <Filter>头文件</Filter>
+    <ClInclude Include="UIUtils.hpp">
+      <Filter>头文件\H-Basics</Filter>
     </ClInclude>
     <ClInclude Include="Provide.hpp">
-      <Filter>头文件</Filter>
+      <Filter>头文件\H-Processer</Filter>
+    </ClInclude>
+    <ClInclude Include="Reservation.hpp">
+      <Filter>头文件\H-Identities</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
